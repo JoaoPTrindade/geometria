@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: brown;
+    color: white;
+    font-size: 1.25rem;
+    font-family: Georgia;
+    padding: 8px;
+}
+input, button{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px; 
+    padding: 4px;  
+}
+input::placeholder{
+    color: green;
+}
+button:hover{
+    background-color: blue;
+}
